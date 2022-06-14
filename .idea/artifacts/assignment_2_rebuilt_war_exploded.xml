@@ -1,0 +1,26 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="assignment-2-rebuilt:war exploded">
+    <output-path>$PROJECT_DIR$/target/assignment-2-rebuilt-1.0-SNAPSHOT</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>assignment-2-rebuilt</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="assignment-2-rebuilt" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/../../../../../../../../JavaLib/jar_files/mariadb-java-client-3.0.5.jar" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/assignment-2-rebuilt-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="assignment-2-rebuilt/web/Web" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="assignment-2-rebuilt:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>assignment-2-rebuilt</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="assignment-2-rebuilt-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="assignment-2-rebuilt:war exploded" />
+    </root>
+  </artifact>
+</component>
